@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.2.xsd">
+	
+	<!-- 自动扫描包，并创建bean对象 -->
+	<context:component-scan base-package="com.accp.service.impl"/>
+	<!-- 导入数据库有关的配置文件 -->
+	<context:property-placeholder location="classpath:db.properties"/>
+	<!-- JNDI配置dbcp数据源 -->
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="username" value="${user}"></property>
+		<property name="password" value="${password}"></property>
+		<property name="driverClassName" value="${driver}"></property>
+		<property name="url" value="${url}"></property>
+	</bean>
+	<!-- 创建会话工厂 -->
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSource"></property>
+		<property name="configLocation" value="classpath:mybatis-config.xml"></property>
+		<property name="mapperLocations" value="classpath:sql/*.xml"></property>
+	</bean>
+	<!-- 创建数据源事务管理器 -->
+	<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource"></property>
+	</bean>
+	<!-- 创建事务 -->
+	<tx:advice id="txAdvice" transaction-manager="transactionManager">
+		<tx:attributes>
+			<tx:method name="get*" read-only="true"/>
+			<tx:method name="select*" read-only="true"/>
+			<tx:method name="delete*" propagation="REQUIRED" rollback-for="SQLException"/>
+			<tx:method name="update*" propagation="REQUIRED" rollback-for="SQLException"/>
+			<tx:method name="insert*" propagation="REQUIRED" rollback-for="SQLException"/>
+			<tx:method name="*" propagation="SUPPORTS"/>
+		</tx:attributes>
+	</tx:advice>
+	<!-- 开启自动代理 -->
+	<aop:aspectj-autoproxy/>
+	<!-- 切入事务 -->
+	<aop:config>
+		<aop:pointcut expression="execution(* com.accp.service.*.*(..))" id="txPointcut"/>
+		<aop:advisor advice-ref="txAdvice" pointcut-ref="txPointcut"/>
+	</aop:config>
+	<!-- 创建映射扫描设置类 -->
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<property name="basePackage" value="com.accp.dao"></property>
+	</bean>
+</beans>
