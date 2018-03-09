@@ -40,6 +40,8 @@ public class GoodsAction {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
+		System.out.println(district);
+		System.out.println(goods);
 		model.addAttribute("goods", goods);
 		return "list";
 	}
