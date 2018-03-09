@@ -40,6 +40,61 @@ public class GoodsAction {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
+		try {
+			goods = goodsService.getGoods(district);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		try {
+			goods = goodsService.getGoods(district);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		try {
+			goods = goodsService.getGoods(district);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		try {
+			goods = goodsService.getGoods(district);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		try {
+			goods = goodsService.getGoods(district);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		try {
+			goods = goodsService.getGoods(district);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		try {
+			goods = goodsService.getGoods(district);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		try {
+			goods = goodsService.getGoods(district);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		try {
+			goods = goodsService.getGoods(district);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		try {
+			goods = goodsService.getGoods(district);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		try {
+			goods = goodsService.getGoods(district);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 		model.addAttribute("goods", goods);
 		return "list";
 	}
