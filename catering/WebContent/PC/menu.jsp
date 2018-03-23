@@ -1,5 +1,5 @@
-<!--<%@page contentType="text/html"%>
-<%@page pageEncoding="UTF-8"%>-->
+<%@page contentType="text/html"%>
+<%@page pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 
@@ -29,11 +29,27 @@
 					width: 100%;
 				}
 			}
-			.tilte{
+			
+			.tilte {
 				border-bottom: 1px solid #DCDCDC;
 				margin-bottom: 10px;
 				padding-bottom: 10px;
 			}
+			
+			.logo {
+				text-align: center;
+			}
+			
+			.logo img {
+				width: 60px;
+				height: 40px;
+			}
+			
+			.logo span {
+				color: brown;
+				font-weight: 600;
+			}
+			
 			.titleMenu {
 				padding: 0;
 				background-color: #B79478;
@@ -57,6 +73,7 @@
 			.titleMenu a:hover {
 				color: #DFDFDF;
 			}
+			
 			.navContent li {
 				border-bottom: 1px solid #BCBCBC;
 			}
@@ -204,9 +221,10 @@
 				cursor: pointer;
 				border: none;
 			}
+			
 			.modelNum .modelSub:focus,
-			.modelNum .modelAdd:focus{
-				outline:0;
+			.modelNum .modelAdd:focus {
+				outline: 0;
 			}
 		</style>
 	</head>
@@ -214,7 +232,8 @@
 	<body>
 		<div class="container main">
 			<div class="row tilte">
-				<div class="col-xs-3">
+				<div class="col-xs-3 logo">
+					<img src="../img/20180314022355.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;<span>好好吃点餐</span>
 				</div>
 				<div class="col-xs-6">
 					<div class="row titleMenu">
@@ -409,6 +428,15 @@
 		</div>
 		<script>
 			$(function() {
+				//记录导航条点击事件
+				var navContentLi = $(".navContent li");
+				//记录导航条点击事件
+				var navIndex = 0;
+				navContentLi.click(function() {
+					navContentLi.eq(navIndex).removeClass("current");
+					navIndex = navContentLi.index($(this));
+					$(this).addClass("current");
+				});
 				//点菜按钮
 				var operate = $(".operate");
 				//减份数
@@ -428,31 +456,31 @@
 				//菜价
 				var unitPrice = 0;
 				//描述
-				var modelDescribe=$("#modelDescribe");
+				var modelDescribe = $("#modelDescribe");
 				var result = $("#result");
 				var num = 0;
 				operate.click(function() {
 					//记录下标
-					var index=operate.index($(this));
+					var index = operate.index($(this));
 					//菜名
-					modelTitle=$(".mediaTitle").eq(index).text();
+					modelTitle = $(".mediaTitle").eq(index).text();
 					$("#modelTitle").text(modelTitle);
 					//计算折扣
 					memberPrice = parseFloat($(".discount").eq(index).find("label").text());
 					$("#memberPrice").text(memberPrice);
-					memberPrice=memberPrice/10;
+					memberPrice = memberPrice / 10;
 					//图片路径
 					modelImg = $(".imgMaxSize").eq(index).attr("src");
-					$("#modelImg").attr("src",modelImg);
+					$("#modelImg").attr("src", modelImg);
 					//菜价
-					unitPrice=parseFloat($(".money").eq(index).text());
+					unitPrice = parseFloat($(".money").eq(index).text());
 					$("#unitPrice").text(unitPrice);
 					//描述
 					modelDescribe.text($(".describe").eq(index).text());
 					num = 1;
 					result.text(num);
 					totalMoney.text(num * unitPrice);
-					totalMemberPrice.text(parseFloat(totalMoney.text())*memberPrice);
+					totalMemberPrice.text(parseFloat(totalMoney.text()) * memberPrice);
 				});
 				modelSub.click(function() {
 					if(num == 1) {
@@ -461,15 +489,15 @@
 					num -= 1;
 					result.text(num);
 					totalMoney.text((num * unitPrice).toFixed(2));
-					totalMemberPrice.text((parseFloat(totalMoney.text())*memberPrice).toFixed(2));
+					totalMemberPrice.text((parseFloat(totalMoney.text()) * memberPrice).toFixed(2));
 				});
 				modelAdd.click(function() {
 					num += 1;
 					result.text(num);
 					totalMoney.text((num * unitPrice).toFixed(2));
-					totalMemberPrice.text((parseFloat(totalMoney.text())*memberPrice).toFixed(2));
+					totalMemberPrice.text((parseFloat(totalMoney.text()) * memberPrice).toFixed(2));
 				});
-				
+
 			});
 		</script>
 		<div class="modal fade" id="operate" tabindex="-1" role="dialog" aria-labelledby="operateLabel" aria-hidden="true" data-backdrop="static">
@@ -508,4 +536,5 @@
 		</div>
 		</div>
 	</body>
+
 </html>

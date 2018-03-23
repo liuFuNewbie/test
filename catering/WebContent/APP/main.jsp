@@ -1,11 +1,12 @@
-<!--<%@page contentType="text/html"%>
-<%@page pageEncoding="UTF-8"%>-->
+<%@page contentType="text/html"%>
+<%@page pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="screen-orientation" content="portrait">
 		<title>点餐系统首页</title>
 		<script type="text/javascript">
 			document.onreadystatechange = function() {
@@ -24,6 +25,16 @@
 					headImg[i].style.height = Math.ceil(head.clientHeight) + "px";
 					headImg[i].style.width = Math.ceil(head.clientWidth) + "px";
 				}
+				//图片弹动
+				var animation_img = document.getElementsByClassName("animation_img");
+				var num=0;
+				window.setInterval(function() {
+					animation_img[num%animation_img.length].style.display="none";
+					animation_img[num%animation_img.length].className="animation_img";
+					animation_img[(num+1)%animation_img.length].style.display="block";
+					animation_img[(num+1)%animation_img.length].className="animation_img animated bounceIn";
+					num++;
+				}, 3000);
 			}
 		</script>
 		<style type="text/css">
@@ -170,19 +181,6 @@
 				animation-name: bounceIn
 			}
 		</style>
-		<script type="text/javascript">
-			window.onload = function() {
-				var animation_img = document.getElementsByClassName("animation_img");
-				var num=0;
-				window.setInterval(function() {
-					animation_img[num%animation_img.length].style.display="none";
-					animation_img[num%animation_img.length].className="animation_img";
-					animation_img[(num+1)%animation_img.length].style.display="block";
-					animation_img[(num+1)%animation_img.length].className="animation_img animated bounceIn";
-					num++;
-				}, 3000);
-			}
-		</script>
 	</head>
 
 	<body>
@@ -190,7 +188,7 @@
 			<div class="content">
 				<div class="top">
 					<span class="topLeft">LOGO</span>
-					<span class="topRight">订餐号码：18316639432</span>
+					<span class="topRight">订餐号码：<a href="tel:18316639432">18316639432</a></span>
 					<div class="clear"></div>
 				</div>
 				<div class="body">
