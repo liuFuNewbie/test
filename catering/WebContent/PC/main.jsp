@@ -6,10 +6,10 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>点餐系统首页</title>
-		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
-		<link rel="stylesheet" type="text/css" href="../css/animate.min.css" />
-		<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
-		<script type="text/javascript" src="../js/bootstrap.js"></script>
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/css/animate.min.css" />
+		<script type="text/javascript" src="${pageContext.request.contextPath }/js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="${pageContext.request.contextPath }/js/bootstrap.js"></script>
 		<style type="text/css">
 			body {
 				background-color: #EFE6D5;
@@ -98,6 +98,7 @@
 			<!--显示logo和系统时间-开始-->
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">LOGO</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">订餐号码：<a href="tel:18316639432">18316639432</a></div>
 			</div>
 			<br />
 			<!--显示logo和系统时间-结束-->
@@ -107,24 +108,24 @@
 				<!--营养小贴士-->
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 function_left">
 					<a href="#">
-						<img id="animation_img1" alt="营养小贴士" data-animation="bounceIn" src="../img/shuiguopinpan1.jpg" />
+						<img id="animation_img1" alt="营养小贴士" data-animation="bounceIn" src="${pageContext.request.contextPath }/img/shuiguopinpan1.jpg" />
 					</a>
 					<a href="#">
-						<img id="animation_img2" style="display: none;" data-animation="bounceIn" alt="图片" src="../img/shuiguoshala1.jpg" />
+						<img id="animation_img2" style="display: none;" data-animation="bounceIn" alt="图片" src="${pageContext.request.contextPath }/img/shuiguoshala1.jpg" />
 					</a>
 					<a href="#">
-						<img id="animation_img3" style="display: none;" data-animation="bounceIn" alt="图片" src="../img/honshaopaigu1.jpg" />
+						<img id="animation_img3" style="display: none;" data-animation="bounceIn" alt="图片" src="${pageContext.request.contextPath }/img/honshaopaigu1.jpg" />
 					</a>
 					<a href="#">
-						<img id="animation_img4" style="display: none;" data-animation="bounceIn" alt="图片" src="../img/qingtanghonguo1.jpg" />
+						<img id="animation_img4" style="display: none;" data-animation="bounceIn" alt="图片" src="${pageContext.request.contextPath }/img/qingtanghonguo1.jpg" />
 					</a>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 function_right">
 					<!--开始点餐-->
 					<div class="row">
 						<div class="order">
-							<a href="menu.jsp">
-								<img alt="开始点餐" src="../img/kaishidiancan1.jpg" />
+							<a href="${pageContext.request.contextPath }/PC/menu.jsp">
+								<img alt="开始点餐" src="${pageContext.request.contextPath }/img/kaishidiancan1.jpg" />
 							</a>
 						</div>
 					</div>
@@ -133,13 +134,13 @@
 							<!--服务员呼叫-->
 							<div class="serve">
 								<a href="#">
-									<img alt="服务员呼叫" src="../img/fuwuyuanhujiao1.jpg" />
+									<img alt="服务员呼叫" src="${pageContext.request.contextPath }/img/fuwuyuanhujiao1.jpg" />
 								</a>
 							</div>
 							<!--微信点餐-->
 							<div class="weChatQRcode">
 								<a href="#">
-									<img alt="微信二维码" src="../img/weixinerweima1.jpg" />
+									<img alt="微信二维码" src="${pageContext.request.contextPath }/img/weixinerweima1.jpg" />
 								</a>
 							</div>
 						</div>
@@ -150,20 +151,20 @@
 								<!--菜谱更新-->
 								<div class="update">
 									<a href="#">
-										<img alt="菜谱更新" src="../img/caipugengxin1.jpg" />
+										<img alt="菜谱更新" src="${pageContext.request.contextPath }/img/caipugengxin1.jpg" />
 									</a>
 								</div>
 								<!--餐厅介绍-->
 								<div class="introduce">
 									<a href="#">
-										<img alt="餐厅介绍" src="../img/cantingjieshao1.jpg" />
+										<img alt="餐厅介绍" src="${pageContext.request.contextPath }/img/cantingjieshao1.jpg" />
 									</a>
 								</div>
 							</div>
 							<!--订单信息-->
 							<div class="right">
 								<a href="#">
-									<img alt="订单信息" src="../img/dingdanxinxi1.jpg" />
+									<img alt="订单信息" src="${pageContext.request.contextPath }/img/dingdanxinxi1.jpg" />
 								</a>
 							</div>
 						</div>
@@ -172,11 +173,6 @@
 			</div>
 			<!--显示功能模块-结束-->
 			<br />
-			<!--显示订餐电话-开始-->
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">123</div>
-			</div>
-			<!--显示订餐电话-结束-->
 		</div>
 
 		<script>

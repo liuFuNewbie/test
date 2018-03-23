@@ -286,7 +286,7 @@
 	<body>
 		<div class="content">
 			<div class="top">
-				<img src="../img/20180314022355.jpg" />&nbsp;&nbsp;好好吃点餐
+				<img src="${pageContext.request.contextPath }/img/20180314022355.jpg" />&nbsp;&nbsp;好好吃点餐
 			</div>
 			<div class="body">
 				<div class="left">
@@ -326,52 +326,52 @@
 							<h3 id="specialty">招牌菜</h3>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
@@ -381,65 +381,65 @@
 							<h3 id="yuecuisine">粤菜</h3>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
@@ -449,65 +449,65 @@
 							<h3 id="chuancuisine">川菜</h3>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
@@ -517,65 +517,65 @@
 							<h3 id="xiangcuisine">湘菜</h3>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
@@ -585,65 +585,65 @@
 							<h3 id="lucuisine">鲁菜</h3>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
@@ -653,65 +653,65 @@
 							<h3 id="seafood">海鲜</h3>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
@@ -721,65 +721,65 @@
 							<h3 id="soup">靓汤</h3>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
@@ -789,65 +789,65 @@
 							<h3 id="drink">饮料</h3>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
@@ -857,65 +857,65 @@
 							<h3 id="pastry">点心</h3>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>
 							</li>
 							<li>
 								<dl>
-									<dt><img src="../img/yuecaixianyuqieguabao.jpg"/></dt>
+									<dt><img src="${pageContext.request.contextPath }/img/yuecaixianyuqieguabao.jpg"/></dt>
 									<dd><span>粤菜咸鱼茄瓜煲</span></dd>
 									<dd><span class="price"><font>￥</font><label>35</label></span><span class="discount">会员<label>10</label>折</span></dd>
 									<dd class="addend">
-										<img src="../img/subtract.png" class="jian" />&nbsp;
+										<img src="${pageContext.request.contextPath }/img/subtract.png" class="jian" />&nbsp;
 										<label>0</label>&nbsp;
-										<img src="../img/add.png" class="jia" />
+										<img src="${pageContext.request.contextPath }/img/add.png" class="jia" />
 									</dd>
 								</dl>
 								<div class="clear"></div>

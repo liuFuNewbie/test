@@ -2,7 +2,6 @@
 <%@page pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
@@ -194,41 +193,41 @@
 				<div class="body">
 					<div class="head">
 						<a href="#">
-							<img class="animation_img" alt="营养小贴士" src="../img/shuiguopinpan1.jpg" style="display: block;"/>
+							<img class="animation_img" alt="营养小贴士" src="${pageContext.request.contextPath }/img/shuiguopinpan1.jpg" style="display: block;"/>
 						</a>
 						<a href="#">
-							<img class="animation_img" alt="图片" src="../img/shuiguoshala1.jpg"  style="display: none;"/>
+							<img class="animation_img" alt="图片" src="${pageContext.request.contextPath }/img/shuiguoshala1.jpg"  style="display: none;"/>
 						</a>
 						<a href="#">
-							<img class="animation_img" alt="图片" src="../img/honshaopaigu1.jpg"  style="display: none;"/>
+							<img class="animation_img" alt="图片" src="${pageContext.request.contextPath }/img/honshaopaigu1.jpg"  style="display: none;"/>
 						</a>
 						<a href="#">
-							<img class="animation_img" alt="图片" src="../img/qingtanghonguo1.jpg"  style="display: none;"/>
+							<img class="animation_img" alt="图片" src="${pageContext.request.contextPath }/img/qingtanghonguo1.jpg"  style="display: none;"/>
 						</a>
 					</div>
 					<div class="middle">
-						<a href="menu.jsp">
-							<img alt="开始点餐" src="../img/kaishidiancan1.jpg" />
+						<a href="${pageContext.request.contextPath }/APP/menu.jsp">
+							<img alt="开始点餐" src="${pageContext.request.contextPath }/img/kaishidiancan1.jpg" />
 						</a>
 						<div>
 							<a href="#">
-								<img alt="服务员呼叫" src="../img/fuwuyuanhujiao1.jpg" id="waiter" />
+								<img alt="服务员呼叫" src="${pageContext.request.contextPath }/img/fuwuyuanhujiao1.jpg" id="waiter" />
 							</a>
 							<a href="#">
-								<img alt="微信二维码" src="../img/weixinerweima1.jpg" id="weChat" />
+								<img alt="微信二维码" src="${pageContext.request.contextPath }/img/weixinerweima1.jpg" id="weChat" />
 							</a>
 							<div class="clear"></div>
 						</div>
 					</div>
 					<div class="bottom">
 						<a href="#">
-							<img alt="菜谱更新" src="../img/caipugengxin1.jpg" />
+							<img alt="菜谱更新" src="${pageContext.request.contextPath }/img/caipugengxin1.jpg" />
 						</a>
 						<a href="#">
-							<img alt="餐厅介绍" src="../img/cantingjieshao1.jpg" />
+							<img alt="餐厅介绍" src="${pageContext.request.contextPath }/img/cantingjieshao1.jpg" />
 						</a>
 						<a href="#">
-							<img alt="订单信息" src="../img/dingdanxinxi1.jpg" />
+							<img alt="订单信息" src="${pageContext.request.contextPath }/img/dingdanxinxi1.jpg" />
 						</a>
 						<div class="clear"></div>
 					</div>

@@ -6,9 +6,9 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>菜单</title>
-		<link type="text/css" rel="stylesheet" href="../css/bootstrap.css" />
-		<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
-		<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+		<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/css/bootstrap.css" />
+		<script type="text/javascript" src="${pageContext.request.contextPath }/js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="${pageContext.request.contextPath }/js/bootstrap.min.js"></script>
 		<style type="text/css">
 			body {
 				background-color: #EFE6D5;
@@ -233,7 +233,7 @@
 		<div class="container main">
 			<div class="row tilte">
 				<div class="col-xs-3 logo">
-					<img src="../img/20180314022355.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;<span>好好吃点餐</span>
+					<img src="${pageContext.request.contextPath }/img/20180314022355.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;<span>好好吃点餐</span>
 				</div>
 				<div class="col-xs-6">
 					<div class="row titleMenu">
@@ -296,7 +296,7 @@
 				<div class="col-xs-9 imgContent">
 					<div class="media">
 						<div class="media-left">
-							<img class="media-object imgMaxSize" src="../img/20180314022320.jpg" />
+							<img class="media-object imgMaxSize" src="${pageContext.request.contextPath }/img/20180314022320.jpg" />
 						</div>
 						<div class="media-body">
 							<div class="row">
@@ -318,7 +318,7 @@
 					</div>
 					<div class="media">
 						<div class="media-left">
-							<img class="media-object imgMaxSize" src="../img/20180314022350.jpg" />
+							<img class="media-object imgMaxSize" src="${pageContext.request.contextPath }/img/20180314022350.jpg" />
 						</div>
 						<div class="media-body">
 							<div class="row">
@@ -340,7 +340,7 @@
 					</div>
 					<div class="media">
 						<div class="media-left">
-							<img class="media-object imgMaxSize" src="../img/20180314022355.jpg" />
+							<img class="media-object imgMaxSize" src="${pageContext.request.contextPath }/img/20180314022355.jpg" />
 						</div>
 						<div class="media-body">
 							<div class="row">
@@ -362,7 +362,7 @@
 					</div>
 					<div class="media">
 						<div class="media-left">
-							<img class="media-object imgMaxSize" src="../img/20180314022358.jpg" />
+							<img class="media-object imgMaxSize" src="${pageContext.request.contextPath }/img/20180314022358.jpg" />
 						</div>
 						<div class="media-body">
 							<div class="row">
@@ -384,7 +384,7 @@
 					</div>
 					<div class="media">
 						<div class="media-left">
-							<img class="media-object imgMaxSize" src="../img/20180314022402.jpg" />
+							<img class="media-object imgMaxSize" src="${pageContext.request.contextPath }/img/20180314022402.jpg" />
 						</div>
 						<div class="media-body">
 							<div class="row">
