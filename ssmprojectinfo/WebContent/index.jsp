@@ -43,7 +43,7 @@
                 <td>项目编号</td>
 				<td>项目名称</td>
 				<td>项目编号</td>
-				<td>项目名称111</td>
+				<td>项目名称</td>
 			</tr>
 			<c:forEach items="${requestScope.projectinfoList }" var="list" varStatus="i">
 				<tr
