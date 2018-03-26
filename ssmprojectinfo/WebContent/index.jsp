@@ -19,6 +19,7 @@
 				<c:if test="${requestScope.status==2 }">selected="selected"</c:if>>已审核</option>
 		</select> <input type="submit" value="查询" />
 	</form>
+	
 	<table border="1">
 		<thead>
 			<tr>
