@@ -31,6 +31,9 @@
 				<td>项目编号</td>
 				<td>项目名称</td>
 				<td>申报开始日期</td>
+				<td>项目编号</td>
+				<td>项目名称</td>
+				<td>申报开始日期</td>
 			</tr>
 			<c:forEach items="${requestScope.projectinfoList }" var="list" varStatus="i">
 				<tr
