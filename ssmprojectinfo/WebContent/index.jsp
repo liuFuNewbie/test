@@ -48,7 +48,7 @@
 							<c:otherwise>已审核</c:otherwise>
 						</c:choose></td>
 					<td><c:if test="${list.status!=2 }">
-							<a href="#">审核</a>
+							<a href="#">审核了</a>
 						</c:if></td>
 				</tr>
 			</c:forEach>
