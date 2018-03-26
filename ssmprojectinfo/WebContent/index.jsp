@@ -8,7 +8,7 @@
 <title>Insert title here</title>
 </head>
 
-<body>宽带缴费如果
+<body>
 	<form action="getProjectinfoByStatus.action" method="post">
 		申报状态：<select name="status">
 			<option value="-1">全部</option>
