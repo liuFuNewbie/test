@@ -34,10 +34,6 @@ public class ProviderAction {
 			@RequestParam(value = "queryProName", required = false) String proName) {
 		List<Provider> selectByExample = null;
 		System.out.println("hello word");
-		System.out.println("hello word");
-		System.out.println("hello word");
-		System.out.println("hello word");
-		System.out.println("hello word");
 		try {
 			selectByExample = providerService.selectByExample(proCode, proName);
 		} catch (SQLException e) {
