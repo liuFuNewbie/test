@@ -18,7 +18,6 @@ import cn.smbms.tools.Constants;
 public class UserAction {
 	@Autowired
 	private UserService userService;
-
 	@RequestMapping(value = "/doLogin", method = RequestMethod.POST)
 	public String doLogin(@RequestParam String userCode,
 			@RequestParam String userPassword, HttpSession session) {
