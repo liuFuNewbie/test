@@ -33,6 +33,7 @@ public class ProviderAction {
 			@RequestParam(value = "queryProCode", required = false) String proCode,
 			@RequestParam(value = "queryProName", required = false) String proName) {
 		List<Provider> selectByExample = null;
+		System.out.println("hello word");
 		try {
 			selectByExample = providerService.selectByExample(proCode, proName);
 		} catch (SQLException e) {
